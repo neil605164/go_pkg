@@ -32,3 +32,13 @@ func Negative(xs []float64) float64 {
 
 	return total
 }
+
+// PrintSomething 字串組合
+func PrintSomething(str ...string) string {
+	strSelf := ""
+	for k := range str {
+		strSelf += str[k]
+	}
+
+	return strSelf
+}
